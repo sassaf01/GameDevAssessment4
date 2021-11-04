@@ -18,7 +18,7 @@ public class AnimatorController : MonoBehaviour
         tweener = GetComponent<Tweener>();
     }
 
-    // Update is called once per frame
+    //Update is called once per frame
     void Update()
     {
         coroutine = MovePacman();
